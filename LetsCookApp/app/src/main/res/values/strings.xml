@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LetsCook</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- Chuỗi mới cho accessibility -->
+    <string name="food_image_description">Hình ảnh món ăn</string>
+    <string name="food_category_description">Thể loại món ăn</string>
+    <string name="food_name_description">Tên món ăn</string>
+    <string name="favorite_button_description">Nút yêu thích món ăn</string>
+    <string name="food_likes_description">Số lượt thích của món ăn</string>
+    <string name="food_views_description">Số lượt xem của món ăn</string>
+    <string name="favorite_add_description">Yêu thích món ăn</string>
+    <string name="favorite_remove_description">Bỏ yêu thích món ăn</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/nav_personal_info"
+        android:icon="@drawable/ic_person"
+        android:title="Thông tin cá nhân" />
+    <item
+        android:id="@+id/nav_favorite"
+        android:icon="@drawable/favourite"
+        android:title="Món ăn yêu thích" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/history"
+        android:title="Món ăn đã xem" />
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/feedback"
+        android:title="Gửi phản hồi" />
+    <item
+        android:id="@+id/nav_my_feedback"
+        android:icon="@drawable/ic_feedback"
+        android:title="Phản hồi của tôi" />
+    <item
+        android:id="@+id/nav_change_password"
+        android:icon="@drawable/changepwd"
+        android:title="Đổi mật khẩu" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="Đăng xuất" />
+
+</menu>
