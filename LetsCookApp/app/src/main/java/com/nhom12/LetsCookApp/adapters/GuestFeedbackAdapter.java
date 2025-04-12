@@ -18,7 +18,6 @@ public class GuestFeedbackAdapter extends RecyclerView.Adapter<GuestFeedbackAdap
     private List<FeedbackItem> feedbackList;
     private OnFeedbackActionListener actionListener;
 
-    // Interface xử lý sự kiện sửa/xóa
     public interface OnFeedbackActionListener {
         void onEditFeedback(int position, FeedbackItem item);
         void onDeleteFeedback(int position, FeedbackItem item);

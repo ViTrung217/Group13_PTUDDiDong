@@ -29,7 +29,7 @@ public class FeedbackAdapter extends RecyclerView.Adapter<FeedbackAdapter.Feedba
 
     @Override
     public FeedbackViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        // Tạo view cho mỗi item từ layout item_feedback_admin
+
         View view = LayoutInflater.from(context).inflate(R.layout.item_feedback_admin, parent, false);
         return new FeedbackViewHolder(view);
     }

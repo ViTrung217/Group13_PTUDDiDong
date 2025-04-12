@@ -73,7 +73,6 @@ public class FavoritesFragment extends Fragment {
         }
     }
 
-    // Lấy chi tiết món ăn từ bảng foods dựa trên foodId
     private Food getFoodDetails(int foodId) {
         Cursor cursor = dbHelper.getAllFoods();
         if (cursor != null && cursor.moveToFirst()) {

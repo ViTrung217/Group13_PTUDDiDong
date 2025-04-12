@@ -27,7 +27,7 @@ public class FeedbackItem {
     }
 
     public void setMessage(String message) {
-        this.message = message; // Thêm setter để cập nhật message
+        this.message = message;
     }
 
     public String getTimestamp() {
